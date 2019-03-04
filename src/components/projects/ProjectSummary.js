@@ -1,10 +1,10 @@
 import React from "react";
 
 
-const ProjectSummary = () => {
+const ProjectSummary = ({project}) => {
     return (
         <div>
-            <h2>Project Title</h2>
+            <h2>{project.title}</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at consequuntur culpa deserunt
                 dolore
                 eum fugit, quod quos rem saepe. Accusantium aliquid commodi harum laudantium magnam officia
