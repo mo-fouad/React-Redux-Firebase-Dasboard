@@ -7,6 +7,8 @@ import SignIn from "./components/auth/SignIn";
 import SignUp from "./components/auth/SignUp";
 import CreateProject from "./components/projects/CreateProject";
 
+// importing CSS
+import './scss/app.scss';
 
 class App extends Component {
     render() {

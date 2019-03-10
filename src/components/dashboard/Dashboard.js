@@ -29,7 +29,7 @@ class Dashboard extends Component {
 // connecting our state from Redux to dashboard component;
 
 const mapStateToProps = (state) => {
-    console.log(state)
+    //console.log(state)
     return {
         projects: state.firestore.ordered.projects
         // getting data from the root store > project then getting data from projects reducer > projects
